@@ -1,0 +1,49 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  padding: 2%;
+  align-items: center;
+}
+
+.form-user {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+input {
+  height: 30px;
+}
+
+.submit {
+  background-color: greenyellow;
+  border: none;
+  height: 30px;
+}
+
+table th {
+  border: 2px solid grey;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 2px solid grey;
+  padding: 5px;
+  text-align: center;
+}
+.data-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2%;
+}
+
+.data-container-item{
+  padding: 2%;
+}
